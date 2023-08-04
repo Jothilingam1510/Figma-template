@@ -1,0 +1,193 @@
+body{
+  background-color: rgb(221, 219, 219);
+}
+.container{
+  height: 150px;
+  padding: 40px;   
+  background-color: rgb(221, 219, 219);
+}
+.topframe{
+  display: flex;
+  height: 186px;
+  gap: 40px;
+  margin-left: 40px;
+  background-color: rgb(221, 219, 219);
+}
+.image{
+  width: 70px;
+  height: 69.18px;
+}
+.financial{
+  
+  width: 560px;
+  height: 140px;
+  font-weight: 700;
+  font-size: 44px;
+  position: relative;
+  bottom: 14px;
+}
+.borderline{
+  border: 1px;
+  color: black;
+  display: flex;
+  justify-content: center;
+  position: relative;
+  bottom: 15px;
+}
+.para{
+  width: 500px;
+  height: 93px;
+  color: rgba(69, 85, 96, 1);
+  align-self: stretch;
+}
+.insideright{
+  width: 500px;
+height: 186px;
+padding-top: 9px;
+}
+.button{
+width: 118px;
+height: 54px;
+background-color: rgba(244, 123, 32, 1);
+border: none;
+border-radius: 8px;
+color: white;
+}
+.cardframe{
+  padding: 80px;
+}
+.cardframe{
+  padding-left: 150px;
+  display: flex;
+  flex-wrap: wrap;
+  }
+#publicliability{
+  margin-right: 120px;
+}
+#propertyinsurance{
+  margin-right: 120px;
+}
+#moneyins{
+  margin-right: 200px;
+}
+#fidelity{
+  margin-right: 120px;
+}
+#theft{
+margin-right: 250px;
+}
+#crimebond{
+margin-right: 180px;
+}
+#business{
+margin-right: 150px;
+}
+#sabotage{
+margin-right: 120px;
+}
+#allrisks{
+margin-right: 200px;
+}
+#marine{
+margin-right: 200px;
+}
+
+.wholehealthpara{
+  display: flex;
+height: 450px;
+padding: 60px;
+flex-direction: column;
+align-items: flex-start;
+align-self: stretch;
+}
+
+.whyproject{
+  display: flex;
+  margin-left: 380px;
+  text-align: center;
+  font-weight: 800;
+  font-size: 28px;
+}
+.thesaudi{
+  margin-left: 280px;
+  display: flex;
+  justify-content: center;
+  font-size: 16px;
+  text-align: center;
+  margin-top: 10px;
+}
+.healthframe{
+  margin-top: 30px;
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: 8px;
+}
+.additional{
+  margin-left: 360px;
+}
+.nextwholepara{
+  height: 100px;
+}
+.wholebanner{
+  display: flex;
+ padding: 10px  ;
+  margin-left: 50px;
+}
+.blue{
+  background-image: url('./image//blue.png');
+  height: 350px;
+  width: 350px;
+  border-radius: 12px;
+  margin: 20px;
+}
+.red{
+  background: var(--tawuniya-brands-red, #DB1753);
+  height: 350px;
+  width: 350px;
+  border-radius: 12px;
+  margin: 20px;
+}
+.lightblue{
+  background: var(--blue-blue, #679AB4);
+  height: 350px;
+  width: 350px;
+  border-radius: 12px;
+  margin: 20px;
+}
+
+/* card id for adjustment*/
+
+#publicliability{
+ width: 120px;
+}
+#propertyinsurance{
+ padding-bottom: 20px;
+}
+#fireadd{
+  width: 220px;
+}
+#moneyins{
+  padding-bottom: 20px;
+}
+#fidelity{
+  width: 150px;
+}
+#crimebond{
+  width: 100px;
+}
+#theft{
+padding-bottom: 20px;
+}
+
+#business{
+width: 120px;
+}
+#sabotage{
+width: 200px;
+}
+#allrisks{
+width: 200px;
+}
+#marine{
+width: 150px;
+}

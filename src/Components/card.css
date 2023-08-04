@@ -1,0 +1,47 @@
+.cardone{
+  width: 320px;
+    margin-right: 24px;
+    padding: 12px;
+    background-color: #FFFFFF;
+    border-radius: 15px;
+    margin-bottom: 24px;
+    
+}
+.fortitles{
+  font-weight: 800;
+  width: 300px;
+  font-size: 15px;
+}
+.forcontent{
+  font-size: 12px;
+margin-top: 10px;
+}
+
+.forsubicons{
+  padding: 10px;
+}
+hr{
+  opacity: 0.4;
+}
+.forsubbuttons{
+  margin-top: 10px;
+  display: flex;
+}
+.learnmorebutton{
+  font-size: 13px;
+}
+.getquotebutton{
+  margin-left: 120px;
+  font-size: 13px;
+}
+.arroworange{
+  margin-top: 5px;
+}
+.rectangle{display: flex;
+  position: absolute;
+  margin-bottom: 70px;
+ width: 300px;
+height: 75px;
+bottom: 0px;
+background: linear-gradient(180deg, rgba(255, 255, 255, 0.00) 24.97%, #FFF 100%);
+}
