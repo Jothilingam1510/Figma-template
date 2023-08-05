@@ -8,7 +8,7 @@ const Listcard = ({imagename,titlename,Idname}) => {
         <div className='forsubicons'> <img src={imagename} alt='person dollar'></img> </div>
         <div className='fortitles' id={Idname}>{titlename}</div>
         <div className='forcontent'>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,Lorem Ipsum has been the industry's standard dummy text ever since the 1500s  
-        <div className='rectangle'></div>
+        <div className='rectangle'/>
         </div>
        <div className="cardline"><hr></hr></div>
         <div className='forsubbuttons'>

@@ -53,7 +53,8 @@ border: none;
 border-radius: 8px;
 color: white;
 }
-.cardframe{
+.cardframe{ 
+  
   padding: 80px;
 }
 .cardframe{
@@ -61,36 +62,7 @@ color: white;
   display: flex;
   flex-wrap: wrap;
   }
-#publicliability{
-  margin-right: 120px;
-}
-#propertyinsurance{
-  margin-right: 120px;
-}
-#moneyins{
-  margin-right: 200px;
-}
-#fidelity{
-  margin-right: 120px;
-}
-#theft{
-margin-right: 250px;
-}
-#crimebond{
-margin-right: 180px;
-}
-#business{
-margin-right: 150px;
-}
-#sabotage{
-margin-right: 120px;
-}
-#allrisks{
-margin-right: 200px;
-}
-#marine{
-margin-right: 200px;
-}
+
 
 .wholehealthpara{
   display: flex;

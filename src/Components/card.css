@@ -13,6 +13,7 @@
   font-size: 15px;
 }
 .forcontent{
+  position: relative;
   font-size: 12px;
 margin-top: 10px;
 }
@@ -37,11 +38,12 @@ hr{
 .arroworange{
   margin-top: 5px;
 }
-.rectangle{display: flex;
-  position: absolute;
-  margin-bottom: 70px;
- width: 300px;
-height: 75px;
+.rectangle{
+  
+  position:absolute;
+  margin-bottom: 2px;
+ width: 320px;
+height: 150px;
 bottom: 0px;
 background: linear-gradient(180deg, rgba(255, 255, 255, 0.00) 24.97%, #FFF 100%);
 }
