@@ -1,0 +1,15 @@
+.questionbox{
+    display: flex;
+    width: 480px;
+    margin-right: 24px;
+    padding: 12px;
+    background-color: #FFFFFF;
+    margin-bottom: 24px;
+}
+.whatquestion{
+    margin-left: 20px;
+}
+.plus{
+    border-radius: 100px;
+background: var(--blue-light-theme-bg-2, #F0F5F8);
+}

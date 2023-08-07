@@ -18,9 +18,24 @@ import Smiley from './image/smileys.png'
 import Congress from './image/congress.png'
 import Welcome from './image/welcome.png'
 import Card from './image/card.png'
+import firstimage from './image/firstimage.png'
+import secondimage from './image/secondimage.png'
+import thirdimage from './image/thirdimage.png'
+import ithra from './image/ithra.png'
+import rarrow from './image/rarrow.png'
+import Tawuniya from './image/Tawuniya.png'
+import  tlogo from './image/tlogo.png'
+import vitality from './image/Vitality.png'
+import vector from './image/Vector.png'
+import Orangearrow from './image/orangearrow.png';
+import twodayago from './image/twodayago.png';
+import twoweekago from './image/twoweekago.png'
+import tenmay from './image/tenmay.png'
+import weekago from './image/weekago.png'
 
 import Listcard from './Components/card';
 import Listcardtwo from './Components/health';
+import Listcardthree from './Components/FAQ';
 
 import './Components/card.css'
 import './Components/health.css'
@@ -31,9 +46,10 @@ function App() {
 {Title:'Crime Bond Insurance', Imagename:Handperson , Nameforid:'crimebond'},{Title:'Theft Insurance', Imagename:Lock, Nameforid:'theft'},{Title:'Business Travel Insurance', Imagename:Aeroplane,Nameforid:'business' },
 {Title:'Sabotage & Terrorism Insurance', Imagename:Buildingfire, Nameforid:'sabotage' },{Title:'Contractors All Risks Insurance', Imagename:contractorshield, Nameforid:'allrisks' },{Title:'Marine Cargo Insurance', Imagename:Marinecargo, Nameforid:'marine' }];
 
-const health = [{Title:'Boost Employee Retention', Imagename:hand}, {Title:'Strengthen Employee Motivation', Imagename:Smiley},
-{Title:'Enhance their Mental Wellbeing', Imagename:Congress},{Title:'Protect them from Severe Health Conditions', Imagename:Welcome}, {Title:'6400+ Cashless Hospitals', Imagename:Card}]
+const health = [{Title:'Boost Employee Retention', Imagename:hand , para:'Health insurance will not only give your employees and their families enough financial security, but an overall sense of satisfaction that their employer actually cares about them.'}, {Title:'Strengthen Employee Motivation', Imagename:Smiley , para:'Happy employees make happy workspaces and evidently successful companies! It’s no surprise that the safer and satisfied employees feel happier and motivated!'},
+{Title:'Enhance their Mental Wellbeing', Imagename:Congress ,para:'Health insurance will not only safeguard the employees  savings but also enhance their overall mental well being with the right support '},{Title:'Protect them from Severe Health Conditions', Imagename:Welcome ,para:'Safeguard your employees from the same, amongst other diseases; the earlier these issues are diagnosed, the earlier they can be treated and resolved. '}, {Title:'6400+ Cashless Hospitals', Imagename:Card , para:'With more than 6400+ cashless hospitals across KSA, your employees can be covered at ease no matter where they are!'}]
 
+const question = ['What is insurance fraud?','What kind of people/Organizations commits insurance fraud?','What is fraud vs. Mistake?','How does fraud impact you?','What is medical fraud unit?','What are some examples of insurance fraud/Abuse?','What are we doing to prevent fraud?','Shall I get a reward for reporting medical insurance fraud?']
 
 return(
 <div>
@@ -69,9 +85,9 @@ return(
   </div>
 
   <div className='healthframe'>
-    {health.map(({Title,Imagename},index) => {
+    {health.map(({Title,Imagename,para},index) => {
     return(
-    <Listcardtwo key={index} Imagename={Imagename} Titlename={Title} />
+    <Listcardtwo key={index} Imagename={Imagename} Titlename={Title} Paragraph={para} />
     );
     })}
   </div>
@@ -81,14 +97,80 @@ return(
  <div className='wholehealthpara nextwholepara'>
   <div className='healthpara'>
     <div className='whyproject'>Take your plan to the next level!</div>
-    <div className='thesaudi additional'>Additional programs that will greatly improve your plan performance.</div>
+    <div className=' additional'>Additional programs that will greatly improve your plan performance.</div>
   </div>
   </div>
 <div className='wholebanner'>
   
-    <div className='blue'></div>
-    <div className='red'></div>
-    <div className='lightblue'></div>
+    <div className='blue'>
+      <img className='bannerimage' src={firstimage} alt=''/>
+      <div className='taw'>Tawuniya</div>
+      <img className='ithra' src={ithra} alt=''/>
+      <div className='offer'>Access to hundreds of exclusive offers, discounts and more</div>
+      <div className='whitesbox'><img className='rarrow' src={rarrow} alt=''/><div className='lm'>Learn <div className='m'>More</div> </div></div>
+
+    </div>
+
+
+
+    
+    <div className='red'>
+      <img className='bannerimage' src={secondimage} alt=''/>
+      <div className='secondbimage'>
+      <img className='tlogo' src={tlogo} alt=''/>
+      <img className='Timage' src={Tawuniya} alt=''/>
+      <img className='vitality' src={vitality} alt=''/></div>
+      <div className='offer'>Get 30% Off annual fitness time gym membership</div>
+      <div className='whitesbox'><img className='rarrow' src={rarrow} alt=''/><div className='lm'>Learn <div className='m'>More</div> </div></div>
+
+    </div>
+
+
+
+    <div className='lightblue'>
+      <img className='bannerimage' src={thirdimage} alt=''/>
+      <div className='arabic'><img className='vector'  src={vector} alt=''/></div>
+      <div className='offer'>Special services and programmes to cover your needs</div>
+      <div className='whitesbox'><img className='rarrow' src={rarrow} alt=''/><div className='lm'>Learn <div className='m'>More</div> </div></div>
+
+    </div>
+</div>
+
+
+
+<div className='wholehealthpara nextwholepara'>
+  <div className='healthpara'>
+    <div className='questionanswer '>You’ve got questions, we’ve got answers</div>
+    <div className=' review'>Review answers to commonly asked questions at Tawuniya, which enable you to be directly involved in improving our support experience..</div>
+  </div>
+  </div>
+
+  <div className='Question'>
+    {question.map((questions,index) => {
+    return(
+    <Listcardthree key={index} whatquestion={questions} />
+    );
+    })}
+  </div>
+
+<div className='vaquestion'>VIEW ALL QUESTION <img className='orarrow' src={Orangearrow} alt=''/></div>
+
+<div className='lastportion'>
+<div className='tnow'>Tawuniya Now,</div>
+<div className='highlights'>Highlights</div>
+</div>
+<div className='lastonelinepara'>
+We provide the best and trusted products for our customers
+</div>
+
+<div className='lastboximage'>
+  <img className='lastimage' src={tenmay} alt=''/>
+  <img className='lastimage' src={twodayago} alt=''/>
+  <img className='lastimage' src={weekago} alt=''/>
+  <img className='lastimage' src={twoweekago} alt=''/>
+  <img className='lastimage' src={tenmay} alt=''/>
+
+
 </div>
 
 

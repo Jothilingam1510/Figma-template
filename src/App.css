@@ -58,7 +58,7 @@ color: white;
   padding: 80px;
 }
 .cardframe{
-  padding-left: 150px;
+  padding-left: 100px;
   display: flex;
   flex-wrap: wrap;
   }
@@ -75,13 +75,13 @@ align-self: stretch;
 
 .whyproject{
   display: flex;
-  margin-left: 380px;
+  margin-left: 340px;
   text-align: center;
   font-weight: 800;
   font-size: 28px;
 }
 .thesaudi{
-  margin-left: 280px;
+  margin-left: 240px;
   display: flex;
   justify-content: center;
   font-size: 16px;
@@ -104,28 +104,9 @@ align-self: stretch;
   display: flex;
  padding: 10px  ;
   margin-left: 50px;
+  margin-top: -50px;
 }
-.blue{
-  background-image: url('./image//blue.png');
-  height: 350px;
-  width: 350px;
-  border-radius: 12px;
-  margin: 20px;
-}
-.red{
-  background: var(--tawuniya-brands-red, #DB1753);
-  height: 350px;
-  width: 350px;
-  border-radius: 12px;
-  margin: 20px;
-}
-.lightblue{
-  background: var(--blue-blue, #679AB4);
-  height: 350px;
-  width: 350px;
-  border-radius: 12px;
-  margin: 20px;
-}
+
 
 /* card id for adjustment*/
 
@@ -162,4 +143,181 @@ width: 200px;
 }
 #marine{
 width: 150px;
+}
+.additional{
+  margin-left: 320px;
+  display: flex;
+  font-size: 16px;
+  margin-top: 10px;
+}
+
+.blue{
+  background: var(--blue-blue, #679AB4);
+  box-shadow: 0px 4px 10px 0px rgba(9, 30, 66, 0.06);
+  height: 350px;
+  width: 350px;
+  border-radius: 12px;
+  margin-right: 20px;
+  margin-bottom: 30px;
+
+}
+.red{
+  background: var(--tawuniya-brands-red, #DB1753);
+  box-shadow: 0px 4px 10px 0px rgba(9, 30, 66, 0.06);
+  height: 350px;
+  opacity: 0.8;
+  width: 350px;
+  border-radius: 12px;
+  margin-right: 20px;
+  margin-bottom: 30px;
+
+}
+.lightblue{
+  background: var(--blue-blue, #679AB4);
+  height: 350px;
+  width: 350px;
+  border-radius: 12px;
+  margin-right: 20px;
+  margin-bottom: 30px;
+
+}
+.bannerimage{
+  height: 350px;
+  width: 350px;
+  border-radius: 12px;
+  opacity: 0.7;
+  mix-blend-mode: overlay;
+  position: absolute;
+  background: lightgray 75% / cover no-repeat;
+  background: linear-gradient(180deg, rgba(255, 255, 255, 0.00) 24.97%, #FFF 100%);
+}
+.taw{
+  color: var(--white, #FFF);
+  margin-left: 30px;
+  margin-top: 40px;
+  font-size: 15px;
+  font-weight: 400;
+}
+.ithra{
+  margin-left: 30px;
+  margin-top: 10px;
+  width: 100px;
+}
+.offer{
+  color: white;
+  margin-left: 30px;
+  margin-top: 135px;
+}
+.whitesbox{
+  display: flex;
+  background-color: white;
+  margin-top: 10px;
+  width: 25px;
+  margin-left: 30px;
+  height: 20px;
+  border-radius: 100px;
+}
+.rarrow{
+  margin-left: 4px;
+}
+.lm{
+  display: flex;
+  flex-direction: row;
+  font-size:smaller;
+  margin-left: 10px;
+  color: white;
+}
+.m{
+  margin-left: 5px;
+}
+.secondbimage{
+  margin-left: 30px;
+  margin-top: 30px;
+  margin-bottom: 170px;
+}
+.tlogo{
+  width: 30px;
+  height: 30px;
+}
+.Timage{
+  margin-left: 10px;
+  width: 100px;
+  height: 20px;
+}
+.arabic{
+  background-color: white;
+  width: 55px;
+  height: 60px;
+  margin-left: 30px;
+  margin-top: 30px;
+  margin-bottom: 150px;
+  border-radius: 5px;
+}
+.vector{
+  width: 40px;
+  height: 45px;
+  padding: 5px;
+}
+.review{
+  margin-left: 200px;
+  display: flex;
+  font-size: 16px;
+  margin-top: 10px;
+  text-align: center;
+  width: 750px;
+}
+.questionanswer{
+  display: flex;
+  margin-left: 280px;
+  text-align: center;
+  font-weight: 800;
+  font-size: 28px;
+}
+.Question{
+  display: flex;
+  margin-left: 100px;
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 30px;
+}
+.vaquestion{
+  display: flex;
+  font-size: smaller;
+  margin-top: 10px;
+  margin-left: 550px;
+  margin-bottom: 30px;
+}
+.orarrow{
+  margin-left: 10px;
+}
+.lastportion{
+  display: flex;
+}
+.tnow{
+  font-size: x-large;
+  font-weight: 600;
+  margin-top: 30px;
+  margin-left: 100px;
+  margin-bottom: 10px;
+}
+.highlights{
+  font-size: x-large;
+  font-weight: 600;
+  margin-top: 30px;
+  margin-bottom: 10px;
+  color: var(--neutral-neutral-03, #B3B9C3);
+}
+.lastonelinepara{
+  margin-left: 100px;
+  margin-bottom: 30px;
+}
+.lastboximage{
+  display: flex;
+  flex-direction: row;
+  margin-left: 100px;
+  margin-bottom: 50px;
+}
+.lastimage{
+  width: 200px;
+  height: 200px;
 }
