@@ -4,8 +4,7 @@ import './FAQ.css'
 
 const Listcardthree= ({whatquestion}) => {
     return(
-<div className="questionbox">
-    <div className="plus"><img src={plus} alt=""/></div>
+<div className="questionbox"><img src={plus} alt=""/>
     <div className="whatquestion">{whatquestion}</div>
 
 </div>

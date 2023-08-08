@@ -22,7 +22,6 @@ import firstimage from './image/firstimage.png'
 import secondimage from './image/secondimage.png'
 import thirdimage from './image/thirdimage.png'
 import ithra from './image/ithra.png'
-import rarrow from './image/rarrow.png'
 import Tawuniya from './image/Tawuniya.png'
 import  tlogo from './image/tlogo.png'
 import vitality from './image/Vitality.png'
@@ -32,13 +31,15 @@ import twodayago from './image/twodayago.png';
 import twoweekago from './image/twoweekago.png'
 import tenmay from './image/tenmay.png'
 import weekago from './image/weekago.png'
-
+import rarrow from './image/rarrow.png'
 import Listcard from './Components/card';
 import Listcardtwo from './Components/health';
 import Listcardthree from './Components/FAQ';
+import Listcardfive from './Components/webfooter';
 
 import './Components/card.css'
 import './Components/health.css'
+import './Components/webfooter.css'
 
 function App() {
   const card = [{Title:'Public Liability Insurance', Imagename:Persondollar, Nameforid:'publicliability' }, {Title:'Property Insurance: All Risk', Imagename:Shieldhome, Nameforid:'propertyinsurance'}, {Title:'Property Insurance: Fire And Additional Perils', Imagename:Shieldfire, Nameforid:'fireadd'}, 
@@ -51,6 +52,7 @@ const health = [{Title:'Boost Employee Retention', Imagename:hand , para:'Health
 
 const question = ['What is insurance fraud?','What kind of people/Organizations commits insurance fraud?','What is fraud vs. Mistake?','How does fraud impact you?','What is medical fraud unit?','What are some examples of insurance fraud/Abuse?','What are we doing to prevent fraud?','Shall I get a reward for reporting medical insurance fraud?']
 
+const website =[{Imagename:tenmay,date:'10 May  2022' , news:"Tawuniya appoints Dr. Ammr Kurdi as Chief Financial Officer",Nameforid:'tenmay'},{Imagename:twodayago,date:'2 days ago',news:'Tawuniya is the first company in the Kingdom to install vehicle insurance policies',Nameforid:'twoday'},{Imagename:weekago,date:'week ago',news:'Tawuniya launches Covid-19 Travel Insurance program',Nameforid:'week'},{Imagename:twoweekago,date:'2 weeks ago',news:'“Tawuniya Vitality” changes the healthy lifestyle of the Saudi Society New program is a first for the Kingdom, the Middle East and North Africa',Nameforid:'twoweek'},{Imagename:tenmay,date:'10 May  2022' , news:'Tawuniya appoints Dr. Ammr Kurdi as Chief Financial Officer',Nameforid:'tenmay'}]
 return(
 <div>
 
@@ -102,7 +104,7 @@ return(
   </div>
 <div className='wholebanner'>
   
-    <div className='blue'>
+<div className='blue'>
       <img className='bannerimage' src={firstimage} alt=''/>
       <div className='taw'>Tawuniya</div>
       <img className='ithra' src={ithra} alt=''/>
@@ -164,13 +166,11 @@ We provide the best and trusted products for our customers
 </div>
 
 <div className='lastboximage'>
-  <img className='lastimage' src={tenmay} alt=''/>
-  <img className='lastimage' src={twodayago} alt=''/>
-  <img className='lastimage' src={weekago} alt=''/>
-  <img className='lastimage' src={twoweekago} alt=''/>
-  <img className='lastimage' src={tenmay} alt=''/>
-
-
+{website.map(({Imagename,date,news,Nameforid},index) => {
+    return(
+    <Listcardfive  key={index} imagename={Imagename} Date={date} News={news} Idname={Nameforid} />
+    );
+    })}
 </div>
 
 

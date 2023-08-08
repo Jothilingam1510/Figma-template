@@ -22,7 +22,7 @@ body{
   width: 560px;
   height: 140px;
   font-weight: 700;
-  font-size: 44px;
+  font-size: 35px;
   position: relative;
   bottom: 14px;
 }
@@ -294,30 +294,28 @@ width: 150px;
   display: flex;
 }
 .tnow{
-  font-size: x-large;
+  font-size: xx-large;
   font-weight: 600;
   margin-top: 30px;
   margin-left: 100px;
   margin-bottom: 10px;
 }
 .highlights{
-  font-size: x-large;
+  font-size:xx-large;
   font-weight: 600;
   margin-top: 30px;
   margin-bottom: 10px;
   color: var(--neutral-neutral-03, #B3B9C3);
 }
 .lastonelinepara{
+  font-size: smaller;
   margin-left: 100px;
   margin-bottom: 30px;
 }
 .lastboximage{
+  position: absolute;
+  padding-left: 80px;
   display: flex;
-  flex-direction: row;
-  margin-left: 100px;
-  margin-bottom: 50px;
-}
-.lastimage{
-  width: 200px;
-  height: 200px;
+  flex-wrap: wrap;
+ padding-bottom: 30px;
 }

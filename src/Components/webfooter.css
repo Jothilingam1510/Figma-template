@@ -1,0 +1,49 @@
+.last{
+    
+    width: 220px;
+    height: 220px;
+}
+.imagepic{
+    position: relative;
+    width: 220px;
+    height: 220px;
+}
+.Dates{
+    color: white;
+    font-size:11px ;
+    position: relative;
+    margin-top: -200px;
+    margin-left: 140px;
+}
+.new{
+    margin-top: -20px;
+    margin-left: 20px;
+    font-size:12px;
+    position: relative;
+   padding: 3px;
+    align-items: center;
+    color: white;
+    width: 30px;
+    border-radius: 10px;
+    background: var(--orange-orange, #F47B20);
+    margin-bottom: 10px;
+}
+.news{
+    margin-top: 120px;
+    color: white;
+    font-weight: 700;
+    font-size: 13px;
+    margin-left: 20px;
+position: relative;
+width: 180px;
+}
+#tenmay{
+    width: 150px;
+}
+#twoday{
+   margin-top: 100px;
+   width: 180px;
+}
+#twoweek{
+    margin-top: 68px;
+}
