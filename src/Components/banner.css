@@ -1,4 +1,87 @@
 .firstimage{
-    background-image: url(/src//image/firstimage.png);
-   
+    
+    background-image: url(/src//image/familyimage.png);
+    background-color: rgba(60, 149, 182);
+    background-size: cover;
+    width: 350px;
+   height: 350px;
+   border-radius: 10px;
+   margin: 15px;
+}
+.secondimage{
+    background-image: url(/src//image/djimage.png);
+    background-color: rgb(227, 27, 87);
+    background-size: cover;
+   width: 350px;
+   height: 350px;
+   border-radius: 10px;
+   margin: 15px;
+
+}
+.thirdimage{
+    background-image: url(/src//image/workingimage.png);
+    background-color: rgb(77, 148, 199);
+    background-size: cover;
+   width: 350px;
+   height: 350px;
+   border-radius: 10px;
+   margin: 15px;
+
+}
+.taw{
+    color: white;
+    margin-left: 30px;
+    margin-top: 30px;
+}
+.ithra{
+    margin-left: 30px;
+    margin-top: 10px;
+}
+.imageone{
+    width: 100px;
+    height: 40px;
+    border: none;
+}
+.content{
+    color: white;
+    margin-left: 30px;
+}
+.offerandlearnmore{
+    margin-top: 130px;
+}
+#get{
+    margin-top: 170px;
+}
+#post{
+    margin-top: 140px;
+}
+.whitesbox{
+    display: flex;
+    background-color: white;
+    margin-top: 10px;
+    width: 25px;
+    margin-left: 30px;
+    height: 20px;
+    border-radius: 100px;
+  }
+  .rarrow{
+    margin-left: 4px;
+  }
+  .lm{
+    display: flex;
+    flex-direction: row;
+    font-size:smaller;
+    margin-left: 10px;
+    color: white;
+  }
+ 
+.vector{
+    width: 60px;
+    height: 70px;
+}
+.tlogo{
+    width: 170px;
+}
+.ithras{
+    width: 130px;
 }

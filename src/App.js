@@ -18,28 +18,24 @@ import Smiley from './image/smileys.png'
 import Congress from './image/congress.png'
 import Welcome from './image/welcome.png'
 import Card from './image/card.png'
-import firstimage from './image/firstimage.png'
-import secondimage from './image/secondimage.png'
-import thirdimage from './image/thirdimage.png'
 import ithra from './image/ithra.png'
-import Tawuniya from './image/Tawuniya.png'
-import  tlogo from './image/tlogo.png'
-import vitality from './image/Vitality.png'
+import TawuniyaLogo from './image/TawuniyaLogo.png'
 import vector from './image/Vector.png'
 import Orangearrow from './image/orangearrow.png';
 import twodayago from './image/twodayago.png';
 import twoweekago from './image/twoweekago.png'
 import tenmay from './image/tenmay.png'
 import weekago from './image/weekago.png'
-import rarrow from './image/rarrow.png'
 import Listcard from './Components/card';
 import Listcardtwo from './Components/health';
 import Listcardthree from './Components/FAQ';
+import Listcardfour from './Components/banner';
 import Listcardfive from './Components/webfooter';
 
 import './Components/card.css'
 import './Components/health.css'
 import './Components/webfooter.css'
+import './Components/banner.css'
 
 function App() {
   const card = [{Title:'Public Liability Insurance', Imagename:Persondollar, Nameforid:'publicliability' }, {Title:'Property Insurance: All Risk', Imagename:Shieldhome, Nameforid:'propertyinsurance'}, {Title:'Property Insurance: Fire And Additional Perils', Imagename:Shieldfire, Nameforid:'fireadd'}, 
@@ -51,6 +47,11 @@ const health = [{Title:'Boost Employee Retention', Imagename:hand , para:'Health
 {Title:'Enhance their Mental Wellbeing', Imagename:Congress ,para:'Health insurance will not only safeguard the employees  savings but also enhance their overall mental well being with the right support '},{Title:'Protect them from Severe Health Conditions', Imagename:Welcome ,para:'Safeguard your employees from the same, amongst other diseases; the earlier these issues are diagnosed, the earlier they can be treated and resolved. '}, {Title:'6400+ Cashless Hospitals', Imagename:Card , para:'With more than 6400+ cashless hospitals across KSA, your employees can be covered at ease no matter where they are!'}]
 
 const question = ['What is insurance fraud?','What kind of people/Organizations commits insurance fraud?','What is fraud vs. Mistake?','How does fraud impact you?','What is medical fraud unit?','What are some examples of insurance fraud/Abuse?','What are we doing to prevent fraud?','Shall I get a reward for reporting medical insurance fraud?']
+
+const Banner = [{Mainclass:'firstimage',text:'Tawanuyia',imageone:ithra,classone:'ithras', textone:'Access to hundreds of exclusive offers, discounts and more'},
+{Mainclass:'secondimage',imageone:TawuniyaLogo,classone:'tlogo',textone:'Get 30% Off annual fitness time gym membership',Idforcontent:'get'},
+{Mainclass:'thirdimage',classone:'vector',imageone:vector, textone:'Special services and programmes to cover your needs',Idforcontent:'post'}]
+
 
 const website =[{Imagename:tenmay,date:'10 May  2022' , news:"Tawuniya appoints Dr. Ammr Kurdi as Chief Financial Officer",Nameforid:'tenmay'},{Imagename:twodayago,date:'2 days ago',news:'Tawuniya is the first company in the Kingdom to install vehicle insurance policies',Nameforid:'twoday'},{Imagename:weekago,date:'week ago',news:'Tawuniya launches Covid-19 Travel Insurance program',Nameforid:'week'},{Imagename:twoweekago,date:'2 weeks ago',news:'“Tawuniya Vitality” changes the healthy lifestyle of the Saudi Society New program is a first for the Kingdom, the Middle East and North Africa',Nameforid:'twoweek'},{Imagename:tenmay,date:'10 May  2022' , news:'Tawuniya appoints Dr. Ammr Kurdi as Chief Financial Officer',Nameforid:'tenmay'}]
 return(
@@ -104,38 +105,13 @@ return(
   </div>
 <div className='wholebanner'>
   
-<div className='blue'>
-      <img className='bannerimage' src={firstimage} alt=''/>
-      <div className='taw'>Tawuniya</div>
-      <img className='ithra' src={ithra} alt=''/>
-      <div className='offer'>Access to hundreds of exclusive offers, discounts and more</div>
-      <div className='whitesbox'><img className='rarrow' src={rarrow} alt=''/><div className='lm'>Learn <div className='m'>More</div> </div></div>
-
-    </div>
-
-
-
-    
-    <div className='red'>
-      <img className='bannerimage' src={secondimage} alt=''/>
-      <div className='secondbimage'>
-      <img className='tlogo' src={tlogo} alt=''/>
-      <img className='Timage' src={Tawuniya} alt=''/>
-      <img className='vitality' src={vitality} alt=''/></div>
-      <div className='offer'>Get 30% Off annual fitness time gym membership</div>
-      <div className='whitesbox'><img className='rarrow' src={rarrow} alt=''/><div className='lm'>Learn <div className='m'>More</div> </div></div>
-
-    </div>
-
-
-
-    <div className='lightblue'>
-      <img className='bannerimage' src={thirdimage} alt=''/>
-      <div className='arabic'><img className='vector'  src={vector} alt=''/></div>
-      <div className='offer'>Special services and programmes to cover your needs</div>
-      <div className='whitesbox'><img className='rarrow' src={rarrow} alt=''/><div className='lm'>Learn <div className='m'>More</div> </div></div>
-
-    </div>
+{Banner.map(({Mainclass,textone,imagearabic,imageone,imagetwo,imagethree,text,images,Idforcontent,classone},index) => {
+                return(
+                  <Listcardfour key={index} Mainclass={Mainclass} imageone={imageone} imagetwo={imagetwo} text={text} image={images}
+                  imagethree={imagethree} textone={textone} imagearabic={imagearabic}  Idforcontent={Idforcontent} classone={classone}
+                  />
+                );
+              })}
 </div>
 
 
@@ -168,7 +144,7 @@ We provide the best and trusted products for our customers
 <div className='lastboximage'>
 {website.map(({Imagename,date,news,Nameforid},index) => {
     return(
-    <Listcardfive  key={index} imagename={Imagename} Date={date} News={news} Idname={Nameforid} />
+    <Listcardfive  key={index} imagename={Imagename} Date={date} News={news}  Idname={Nameforid}/>
     );
     })}
 </div>
