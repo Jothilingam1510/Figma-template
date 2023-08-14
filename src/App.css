@@ -157,113 +157,7 @@ width: 150px;
   margin-top: 10px;
 }
 
-/* .blue{
-  background: var(--blue-blue, #679AB4);
-  box-shadow: 0px 4px 10px 0px rgba(9, 30, 66, 0.06);
-  height: 350px;
-  width: 350px;
-  border-radius: 12px;
-  margin-right: 20px;
-  margin-bottom: 30px;
 
-}
-.red{
-  background: var(--tawuniya-brands-red, #DB1753);
-  box-shadow: 0px 4px 10px 0px rgba(9, 30, 66, 0.06);
-  height: 350px;
-  opacity: 0.8;
-  width: 350px;
-  border-radius: 12px;
-  margin-right: 20px;
-  margin-bottom: 30px;
-
-}
-.lightblue{
-  background: var(--blue-blue, #679AB4);
-  height: 350px;
-  width: 350px;
-  border-radius: 12px;
-  margin-right: 20px;
-  margin-bottom: 30px;
-
-}
-.bannerimage{
-  height: 350px;
-  width: 350px;
-  border-radius: 12px;
-  opacity: 0.7;
-  mix-blend-mode: overlay;
-  position: absolute;
-  background: lightgray 75% / cover no-repeat;
-  background: linear-gradient(180deg, rgba(255, 255, 255, 0.00) 24.97%, #FFF 100%);
-}
-.taw{
-  color: var(--white, #FFF);
-  margin-left: 30px;
-  margin-top: 40px;
-  font-size: 15px;
-  font-weight: 400;
-}
-.ithra{
-  margin-left: 30px;
-  margin-top: 10px;
-  width: 100px;
-}
-.offer{
-  color: white;
-  margin-left: 30px;
-  margin-top: 135px;
-}
-.whitesbox{
-  display: flex;
-  background-color: white;
-  margin-top: 10px;
-  width: 25px;
-  margin-left: 30px;
-  height: 20px;
-  border-radius: 100px;
-}
-.rarrow{
-  margin-left: 4px;
-}
-.lm{
-  display: flex;
-  flex-direction: row;
-  font-size:smaller;
-  margin-left: 10px;
-  color: white;
-}
-.m{
-  margin-left: 5px;
-}
-.secondbimage{
-  margin-left: 30px;
-  margin-top: 30px;
-  margin-bottom: 170px;
-}
-.tlogo{
-  width: 30px;
-  height: 30px;
-}
-.Timage{
-  margin-left: 10px;
-  width: 100px;
-  height: 20px;
-}
-.arabic{
-  background-color: white;
-  width: 55px;
-  height: 60px;
-  margin-left: 30px;
-  margin-top: 30px;
-  margin-bottom: 150px;
-  border-radius: 5px;
-}
-.vector{
-  width: 40px;
-  height: 45px;
-  padding: 5px;
-}*/
 .review{
   margin-left: 200px;
   display: flex;
@@ -324,4 +218,262 @@ width: 150px;
   display: flex;
   flex-wrap: wrap;
  margin-bottom: 40px;
+}
+
+
+
+
+
+
+@media (min-width: 768px) and (max-width: 1024px){
+  html,body{
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+  }
+  .image{
+    margin-top: 20px;
+    width: 50px;
+    height: 49.18px;
+  }
+  .financial{
+    margin-top: 20px;
+    width: 300px;
+    height: 70px;
+    font-weight: 700;
+    font-size: 20px;
+    position: relative;
+    bottom: 14px;
+  }
+  .para{
+    width: 400px;
+    height: 93px;
+    color: rgba(69, 85, 96, 1);
+    align-self: stretch;
+    font-size: small;
+  }
+  .button{
+    width: 90px;
+    height: 44px;
+    background-color: rgba(244, 123, 32, 1);
+    border: none;
+    border-radius: 8px;
+    color: white;
+  }
+  #professionalind{
+  width: 250px;
+  }
+  .nextwholepara{
+    margin-top: 300px;
+  }
+
+  .whyproject{
+    margin-left: 50px;
+  }
+  .thesaudi{
+    margin-left: 100px;
+    width: 400px;
+  }
+  .whyproject{
+    margin-left: 100px;
+  }
+  .additional{
+    margin-left: 80px;
+  }
+  .questionanswer{
+    margin-left: 40px;
+  }
+  .review{
+    margin-left: 20px;
+    width: 600px;
+  }
+  .you{
+    margin-top: 10px;
+  }
+  .Question{
+    margin-left:100px;
+  }
+}
+
+
+
+
+@media (min-width: 480px) and (max-width: 768px){
+  html,body{
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+  }
+  .image{
+    margin-top: 20px;
+    width: 40px;
+    height: 39.18px;
+  }
+  .financial{
+    margin-top: 20px;
+    width: 300px;
+    height: 70px;
+    font-weight: 500;
+    font-size: 17px;
+    position: relative;
+    bottom: 14px;
+  }
+  .para{
+    width: 300px;
+    height: 93px;
+    color: rgba(69, 85, 96, 1);
+    align-self: stretch;
+    font-size: small;
+  }
+  .button{
+    width: 70px;
+    height: 36px;
+    background-color: rgba(244, 123, 32, 1);
+    border: none;
+    border-radius: 8px;
+    color: white;
+  }
+  #professionalind{
+    width: 200px;
+    }
+    .nextwholepara{
+      margin-top: 400px;
+    }
+  
+
+    .thesaudi{
+      margin-left: 100px;
+      width: 400px;
+    }
+    .whyproject{
+      margin-left: 50px;
+    }
+    .additional{
+      margin-left: 80px;
+    }
+    .questionanswer{
+      margin-left: 40px;
+    }
+    .review{
+      margin-left: 20px;
+      width: 600px;
+    }
+    .you{
+      margin-top: 10px;
+    }
+    .Question{
+      margin-left:150px;
+    }
+    .vaquestion{
+      margin-left: 300px;
+    }
+}
+
+
+@media (min-width: 320px) and (max-width: 480px){
+
+  html,body{
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    margin-left: -15px;
+    overflow-x: hidden;  }
+  .topframe{
+    display:block;
+    gap: 40px;
+    margin-left: 40px;
+    background-color: rgb(221, 219, 219);
+  }
+  .image{
+    width: 37px;
+  }
+  .financial{
+    margin-top: 10px;
+    width: 300px;
+  }
+  .para{
+    font-size: small;
+    width: 260px;
+  }
+.button{
+margin-top: 30px;}
+.cardframe{
+  margin-left: -30px;
+  margin-top: 180px;
+}
+#publicliability{
+  width: 250px;
+ }
+
+ #fireadd{
+   width: 250px;
+ }
+
+ #fidelity{
+   width: 250px;
+ }
+ #crimebond{
+   width: 250px;
+ }
+ #professionalind{
+  width: 250px;
+  }
+ 
+ #business{
+ width: 250px;
+ }
+ #sabotage{
+ width: 250px;
+ }
+ #allrisks{
+ width: 250px;
+ }
+ #marine{
+ width: 250px;
+ }
+.healthpara{
+  margin-left: -330px;
+}
+.whyproject{
+  padding-left: 30px;
+  width: 300px;
+  font-size:large;
+  font-weight: 900;
+}
+.thesaudi{
+  margin-top: 20px;
+  padding-left: 150px;
+  width: 250px;
+  font-size:small;
+}
+.nextwholepara{
+  margin-top: 1300px;
+}
+.take{
+  margin-top: 780px;
+}
+.additional{
+  padding-left: 20px;
+}
+.you{
+  margin-top: 20px;
+font-weight: 800;
+}
+.questionanswer{
+  padding-left: 50px;
+  font-size:large;
+  width: 270px;
+}
+.review{
+  padding-left: 130px;
+  font-size: small;
+  width: 270px;
+}
+.wholebanner{
+  margin-left: 30px;
+}
+
 }

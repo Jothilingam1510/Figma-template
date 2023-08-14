@@ -85,3 +85,60 @@
 .ithras{
     width: 130px;
 }
+
+
+
+@media (min-width: 768px) and (max-width: 1024px){
+    .firstimage{
+    
+       width: 300px;
+       height: 330px;
+    }
+    .secondimage{
+        width: 300px;
+        height: 330px;
+    
+    }
+    .thirdimage{
+        width: 300px;
+        height: 330px;
+    
+    }
+}
+
+
+@media (min-width: 480px) and (max-width: 768px){
+    .firstimage{
+    
+        width: 300px;
+        height: 330px;
+     }
+     .secondimage{
+         width: 300px;
+         height: 330px;
+     
+     }
+     .thirdimage{
+         width: 300px;
+         height: 330px;
+     
+     }
+}
+
+@media (min-width: 320px) and (max-width: 480px){
+    .firstimage{
+    
+        width:270px;
+        height: 330px;
+     }
+     .secondimage{
+         width: 270px;
+         height: 330px;
+     
+     }
+     .thirdimage{
+         width: 270px;
+         height: 330px;
+     
+     }
+}

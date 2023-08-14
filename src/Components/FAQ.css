@@ -13,3 +13,9 @@
     border-radius: 100px;
 background: var(--blue-light-theme-bg-2, #F0F5F8);
 }
+
+@media (min-width: 320px) and (max-width: 480px){
+.questionbox{
+    margin-top: 30px;
+}
+}

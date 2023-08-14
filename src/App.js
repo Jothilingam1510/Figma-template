@@ -81,7 +81,7 @@ return(
           </div>
 
           <div className='protectemployeepart'>
-<div className='wholehealthpara '>
+<div className='wholehealthpara why '>
   <div className='healthpara'>
     <div className='whyproject'>Why protect your employees’ health <br></br> with a Health Insurance policy?</div>
     <div className='thesaudi'>The Saudi insurance pioneer, will help you to identify, analyze and manage such risks and suggest <br></br> appropriate insurance solutions.</div>
@@ -97,7 +97,7 @@ return(
 </div>
 </div>      
  
- <div className='wholehealthpara nextwholepara'>
+ <div className='wholehealthpara nextwholepara take'>
   <div className='healthpara'>
     <div className='whyproject'>Take your plan to the next level!</div>
     <div className=' additional'>Additional programs that will greatly improve your plan performance.</div>
@@ -116,7 +116,7 @@ return(
 
 
 
-<div className='wholehealthpara nextwholepara'>
+<div className='wholehealthpara nextwholepara you'>
   <div className='healthpara'>
     <div className='questionanswer '>You’ve got questions, we’ve got answers</div>
     <div className=' review'>Review answers to commonly asked questions at Tawuniya, which enable you to be directly involved in improving our support experience..</div>
